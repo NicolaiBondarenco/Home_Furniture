@@ -1,0 +1,19 @@
+.Error__img {
+  display: block;
+  margin: 50px auto 0;
+  width: 45%;
+}
+
+.Error__text {
+  text-align: center;
+  font-family: 'DynaPuff', cursive;
+  font-size: 18px;
+  color: #5d4b22;
+}
+
+@media (max-width: 550px) {
+  .Error__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

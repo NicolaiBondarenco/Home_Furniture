@@ -1,0 +1,28 @@
+.categories {
+  margin-bottom: 35px;
+}
+
+.categories__list {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+}
+
+.categories__listItem {
+  padding: 10px 15px;
+  background-color: #abd2d4;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categories__listItem:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+/*# sourceMappingURL=Categories.module.css.map */

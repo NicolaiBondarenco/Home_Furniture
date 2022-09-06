@@ -1,0 +1,23 @@
+.categories {
+  margin-bottom: 35px;
+  overflow: auto;
+  white-space: nowrap;
+  &__list {
+    justify-content: space-between;
+    display: flex;
+    max-width: 700px;
+  }
+  &__listItem {
+    padding: 10px 15px;
+    background-color: #c1c1c1;
+    border-radius: 20px;
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+    &:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+  }
+}
